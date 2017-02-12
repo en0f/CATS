@@ -1,0 +1,458 @@
+# InstaRecon v0.1.2 - by Luis Teixeira (teix.co)
+# Scanning 1/1 hosts
+# No Shodan key provided
+
+# ____________________ Scanning qualys.com ____________________ #
+
+[*] Domain: qualys.com
+
+[*] IPs & reverse DNS:
+64.39.96.133 - www.qualys.com
+
+[*] NS records:
+dns1.qualys.com
+	64.39.107.10 - dns1.qualys.com
+dns4.qualys.com
+	64.39.100.68 - dns4.qualys.com
+dns3.qualys.com
+	64.39.96.151 - dns3.qualys.com
+dns2.qualys.com
+	64.39.96.161 - dns2.qualys.com
+
+[*] MX records:
+mxb-001ca501.gslb.pphosted.com
+	148.163.156.198 - mx0a-001ca501.pphosted.com
+mxa-001ca501.gslb.pphosted.com
+	148.163.156.198 - mx0a-001ca501.pphosted.com
+
+[*] Whois domain:
+Domain Name: qualys.com
+Registry Domain ID: 3504715_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.gandi.net
+Registrar URL: http://www.gandi.net
+Updated Date: 2014-10-03T20:10:50Z
+Creation Date: 1999-02-09T00:00:00Z
+Registrar Registration Expiration Date: 2019-02-09T05:00:00Z
+Registrar: GANDI SAS
+Registrar IANA ID: 81
+Registrar Abuse Contact Email: abuse@support.gandi.net
+Registrar Abuse Contact Phone: +33.170377661
+Reseller: 
+Domain Status: clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited
+Domain Status: 
+Domain Status: 
+Domain Status: 
+Domain Status: 
+Registry Registrant ID: 
+Registrant Name: Domain Admin
+Registrant Organization: Qualys, Inc.
+Registrant Street: Maison de la Défense
+ 7 Place de la Défense
+Registrant City: Courbevoie
+Registrant State/Province: California
+Registrant Postal Code: 92400
+Registrant Country: FR
+Registrant Phone: +1.6508016169
+Registrant Phone Ext:
+Registrant Fax: +1.6508016101
+Registrant Fax Ext:
+Registrant Email: domain-admin@qualys.com
+Registry Admin ID: 
+Admin Name: Domain Admin
+Admin Organization: Qualys, Inc.
+Admin Street: Maison de la Défense
+ 7 Place de la Défense
+Admin City: Courbevoie
+Admin State/Province: California
+Admin Postal Code: 92400
+Admin Country: FR
+Admin Phone: +1.6508016169
+Admin Phone Ext:
+Admin Fax: +1.6508016101
+Admin Fax Ext:
+Admin Email: domain-admin@qualys.com
+Registry Tech ID: 
+Tech Name: None None
+Tech Organization: Qualys, Inc.
+Tech Street: 1600 Bridge Parkway, Suite 201
+Tech City: Redwood Shores
+Tech State/Province: California
+Tech Postal Code: 94065
+Tech Country: US
+Tech Phone: +1.6508016100
+Tech Phone Ext:
+Tech Fax: +1.6508016101
+Tech Fax Ext:
+Tech Email: domain-tech@qualys.com
+Name Server: DNS1.QUALYS.COM
+Name Server: DNS2.QUALYS.COM
+Name Server: DNS3.QUALYS.COM
+Name Server: DNS4.QUALYS.COM
+Name Server: 
+Name Server: 
+Name Server: 
+Name Server: 
+Name Server: 
+Name Server: 
+DNSSEC: Unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2017-01-20T16:35:14Z
+
+[*] Whois IP for 64.39.96.133:
+asn: 27385
+asn_cidr: 64.39.96.0/24
+asn_country_code: US
+asn_date: 2006-05-30
+asn_registry: arin
+net 0:
+	cidr: 64.39.96.0/20
+	range: 64.39.96.0 - 64.39.111.255
+	name: QUALYS
+	description: QUALYS, Inc.
+	handle: NET-64-39-96-0-1
+	
+	address: 1600 Bridge Parkway, Suite 201
+	city: Redwood Shores
+	state: CA
+	postal_code: 94065
+	country: US
+
+[*] Related CIDR:
+64.39.96.0/20
+
+# Can't do Shodan lookups without a key (pass one with -s or with unix environment variable SHODAN_KEY)
+
+# Querying Google for subdomains and Linkedin pages, this might take a while
+[*] Possible LinkedIn page: https://www.linkedin.com/company/qualys
+[*] Subdomains:
+blog.qualys.com
+	134.213.133.97
+	https://blog.qualys.com/
+	https://blog.qualys.com/author/akamble
+	https://blog.qualys.com/author/amolsarwate
+	https://blog.qualys.com/author/bharat_jogi
+	https://blog.qualys.com/author/bsdaemon
+	https://blog.qualys.com/author/daniel
+	https://blog.qualys.com/author/doh
+	https://blog.qualys.com/author/dxr
+	https://blog.qualys.com/author/eperraudeau
+	https://blog.qualys.com/author/fmc
+	https://blog.qualys.com/author/ghulme
+	https://blog.qualys.com/author/ivanr
+	https://blog.qualys.com/author/jhaberland
+	https://blog.qualys.com/author/jperez
+	https://blog.qualys.com/author/lwang
+	https://blog.qualys.com/author/malderman
+	https://blog.qualys.com/author/mayuresh
+	https://blog.qualys.com/author/nshinde
+	https://blog.qualys.com/author/pbaxi
+	https://blog.qualys.com/author/pparikh
+	https://blog.qualys.com/author/rdellimmagine
+	https://blog.qualys.com/author/sitraj
+	https://blog.qualys.com/author/sthakar
+	https://blog.qualys.com/author/twhite
+	https://blog.qualys.com/author/vkorde
+	https://blog.qualys.com/author/wkandek
+	https://blog.qualys.com/news
+	https://blog.qualys.com/securitylabs
+	https://blog.qualys.com/ssllabs
+	https://blog.qualys.com/tag/0day
+	https://blog.qualys.com/tag/adobe
+	https://blog.qualys.com/tag/api
+	https://blog.qualys.com/tag/apple
+	https://blog.qualys.com/tag/application
+	https://blog.qualys.com/tag/assetview
+	https://blog.qualys.com/tag/browsercheck
+	https://blog.qualys.com/tag/bug
+	https://blog.qualys.com/tag/cookie
+	https://blog.qualys.com/tag/cpu
+	https://blog.qualys.com/tag/cyberhygiene
+	https://blog.qualys.com/tag/edge
+	https://blog.qualys.com/tag/emet
+	https://blog.qualys.com/tag/exploit
+	https://blog.qualys.com/tag/explorer
+	https://blog.qualys.com/tag/flash
+	https://blog.qualys.com/tag/government
+	https://blog.qualys.com/tag/h323
+	https://blog.qualys.com/tag/ie
+	https://blog.qualys.com/tag/internet
+	https://blog.qualys.com/tag/iot
+	https://blog.qualys.com/tag/java
+	https://blog.qualys.com/tag/kernel
+	https://blog.qualys.com/tag/malware
+	https://blog.qualys.com/tag/microsoft
+	https://blog.qualys.com/tag/openssl
+	https://blog.qualys.com/tag/oracle
+	https://blog.qualys.com/tag/owasp
+	https://blog.qualys.com/tag/patch
+	https://blog.qualys.com/tag/pci
+	https://blog.qualys.com/tag/platform
+	https://blog.qualys.com/tag/poodle
+	https://blog.qualys.com/tag/portal
+	https://blog.qualys.com/tag/postgresql
+	https://blog.qualys.com/tag/qsc14
+	https://blog.qualys.com/tag/qsc2013
+	https://blog.qualys.com/tag/qualysguard
+	https://blog.qualys.com/tag/release
+	https://blog.qualys.com/tag/scanning
+	https://blog.qualys.com/tag/scorecard
+	https://blog.qualys.com/tag/security
+	https://blog.qualys.com/tag/selenium
+	https://blog.qualys.com/tag/slowhttptest
+	https://blog.qualys.com/tag/solaris
+	https://blog.qualys.com/tag/ssl
+	https://blog.qualys.com/tag/ssllabs
+	https://blog.qualys.com/tag/support
+	https://blog.qualys.com/tag/vm
+	https://blog.qualys.com/tag/vulnerabilities
+	https://blog.qualys.com/tag/vulnerability
+	https://blog.qualys.com/tag/waf
+	https://blog.qualys.com/tag/was
+	https://blog.qualys.com/tag/xss
+	https://blog.qualys.com/technology
+browsercheck.qualys.com
+	64.39.96.29 - browsercheck.qualys.com
+	https://browsercheck.qualys.com/
+	https://browsercheck.qualys.com/admin/login.php
+	https://browsercheck.qualys.com/sua.php
+community.qualys.com
+	23.72.15.94 - a23-72-15-94.deploy.static.akamaitechnologies.com
+	https://community.qualys.com/
+	https://community.qualys.com/content
+	https://community.qualys.com/places
+	https://community.qualys.com/thread/10246
+	https://community.qualys.com/thread/10380
+	https://community.qualys.com/thread/10626
+	https://community.qualys.com/thread/10979
+	https://community.qualys.com/thread/11126
+	https://community.qualys.com/thread/11732
+	https://community.qualys.com/thread/11987
+	https://community.qualys.com/thread/12075
+	https://community.qualys.com/thread/12315
+	https://community.qualys.com/thread/12576
+	https://community.qualys.com/thread/12663
+	https://community.qualys.com/thread/12775
+	https://community.qualys.com/thread/12811
+	https://community.qualys.com/thread/13717
+	https://community.qualys.com/thread/13827
+	https://community.qualys.com/thread/14489
+	https://community.qualys.com/thread/14850
+	https://community.qualys.com/thread/14873
+	https://community.qualys.com/thread/14903
+	https://community.qualys.com/thread/15092
+	https://community.qualys.com/thread/15199
+	https://community.qualys.com/thread/15213
+	https://community.qualys.com/thread/15242
+	https://community.qualys.com/thread/15243
+	https://community.qualys.com/thread/15653
+	https://community.qualys.com/thread/15815
+	https://community.qualys.com/thread/16246
+	https://community.qualys.com/thread/16248
+	https://community.qualys.com/thread/16342
+	https://community.qualys.com/thread/1801
+	https://community.qualys.com/thread/9466
+	https://community.qualys.com/thread/9639
+	https://community.qualys.com/threads
+freescan.qualys.com
+	64.39.96.162 - freescan.qualys.com
+	https://freescan.qualys.com/
+investor.qualys.com
+	198.55.192.37
+	https://investor.qualys.com/
+	https://investor.qualys.com/committees.cfm
+	https://investor.qualys.com/contactus.cfm
+	https://investor.qualys.com/directors.cfm
+	https://investor.qualys.com/events.cfm
+	https://investor.qualys.com/login.cfm
+	https://investor.qualys.com/releases.cfm
+	https://investor.qualys.com/results.cfm
+	https://investor.qualys.com/rss.cfm
+	https://investor.qualys.com/sec.cfm
+	https://investor.qualys.com/stockquote.cfm
+lps.qualys.com
+	199.15.214.119
+	https://lps.qualys.com/2015.06.11-qualys-forrester-was.html
+	https://lps.qualys.com/education-webcast-patching.html%3Fleadsource%3D18184822
+	https://lps.qualys.com/prioritize-remediate-vulnerabilities-qualys-threatprotect.html
+	https://lps.qualys.com/qualys-unveils-new-products-webcasts.html
+	https://lps.qualys.com/subscription-preference.html
+pci.qualys.com
+	64.39.96.244 - pci.qualys.com
+	https://pci.qualys.com/
+	https://pci.qualys.com/static/help/merchant/account/managing_applications.htm
+	https://pci.qualys.com/static/help/merchant/account/managing_authentication_records.htm
+	https://pci.qualys.com/static/help/merchant/account/managing_ip_assets.htm
+	https://pci.qualys.com/static/help/merchant/account/removing_ips.htm
+	https://pci.qualys.com/static/help/merchant/application_scans/scan_settings_advanced_options.htm
+	https://pci.qualys.com/static/help/merchant/application_scans/web_application_scan_settings.htm
+	https://pci.qualys.com/static/help/merchant/discovery_scans/discover_your_network.htm
+	https://pci.qualys.com/static/help/merchant/discovery_scans/scan_bandwidth_discovery.htm
+	https://pci.qualys.com/static/help/merchant/discovery_scans/view_discovery_scans.htm
+	https://pci.qualys.com/static/help/merchant/false_positives/false_positives.htm
+	https://pci.qualys.com/static/help/merchant/getting_started/check_scanner_ip_addresses.htm
+	https://pci.qualys.com/static/help/merchant/network_reports/report_attestation_scan_compliance.htm
+	https://pci.qualys.com/static/help/merchant/network_reports/report_detailed_results.htm
+	https://pci.qualys.com/static/help/merchant/network_reports/report_executive_summary.htm
+	https://pci.qualys.com/static/help/merchant/network_reports/request_review_network_reports.htm
+	https://pci.qualys.com/static/help/merchant/network_scans/open_services_report.htm
+	https://pci.qualys.com/static/help/merchant/network_scans/pci_dss_requirement_115.htm
+	https://pci.qualys.com/static/help/merchant/network_scans/scan_bandwidth.htm
+	https://pci.qualys.com/static/help/merchant/network_scans/scan_dead_hosts.htm
+	https://pci.qualys.com/static/help/merchant/network_scans/start_network_scan.htm
+	https://pci.qualys.com/static/help/merchant/network_scans/view_compliance_status.htm
+	https://pci.qualys.com/static/help/merchant/questionnaires/compensating_controls_definition.htm
+	https://pci.qualys.com/static/help/merchant/questionnaires/new_pci_dss_questionnaire.htm
+	https://pci.qualys.com/static/help/merchant/vulnerabilities/pci_exceptions.htm
+portal.qualys.com
+	64.39.96.111 - portal.qualys.com
+	https://portal.qualys.com/portal-help/en/asset/assets/assets.htm
+	https://portal.qualys.com/portal-help/en/asset/tags/manage_your_tags.htm
+	https://portal.qualys.com/portal-help/en/questionnaire/answers/manage_questionnaires.htm
+qg2.qualys.com
+	64.39.96.200	
+		qualysguard2.qualys.com	
+		qg2.qualys.com
+	https://qg2.qualys.com/
+qgadmin.qualys.com
+	64.39.96.110	
+		www.qgadmin.qualys.com	
+		qgadmin.qualys.com
+	https://qgadmin.qualys.com/
+qualysapi.qualys.com
+	64.39.96.17 - qualysapi.qualys.com
+	https://qualysapi.qualys.com/
+	https://qualysapi.qualys.com/qwebhelp/fo_help/asset_groups/groups_business.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/asset_groups/groups_dns_netbios.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/asset_groups/groups_domains.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/asset_search/win_asset_search.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/authentication/multiple_windows_auth_records.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/authentication/sudo_authentication.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/authentication/vaults/authentication_vault_list.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/authentication/vaults/vault_login.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/authentication/windows_domain_account_creation.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/getting_started/introducing_the_ui.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/host_assets/about_host_assets.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/host_assets/excluding_hosts.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/host_assets/purging_host_info.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/host_assets/win_add_hosts.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/host_assets/win_host_information.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/knowledgebase/vulnerability_levels.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/knowledgebase/vulnerability_search_criteria.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/module_pc/controls/file_integrity_monitoring.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/module_pc/controls/password_auditing.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/module_pc/controls/unix/win_file_content_check_unix.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/module_pc/exceptions/creating_exceptions.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/module_pc/policies/control_values_strings.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/module_pc/policies/regular_expression_symbols.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/module_pc/scan/compliance_profile_scan_options.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/module_pci/pci_compliance.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/module_was/scan/was_scan_overview.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/module_was/web_applications/web_app_authentication.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/option_profiles/options_adv.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/option_profiles/options_scan.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/reports/about_report_templates.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/reports/patch_reports/about_patch_reports.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/reports/patch_reports/patch_report_online_os.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/reports/report_center/win_rc_new_remediation_report.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/reports/scan_reports/security_risk_scan_reports.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/reports/scan_reports/win_sans_20_report.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/scanner_appliances/check_status.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/scanner_appliances/scanner_lan.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/scans/security_risk_scan_results.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/setup/win_dissolvable_agent.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/user_accounts/user_accounts_list.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_help/vlans/vlan_trunking_setup_guidelines.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_portal/module_was/web_applications/web_app_black_white_lists.htm
+	https://qualysapi.qualys.com/qwebhelp/fo_portal/setup/scans_setup_options.htm
+qualysguard.qg2.apps.qualys.com
+	64.39.96.201 - qualysguard.qg2.apps.qualys.com
+	https://qualysguard.qg2.apps.qualys.com/fo/reset/index.php
+qualysguard.qualys.com
+	64.39.96.109 - qualysguard.qualys.com
+	https://qualysguard.qualys.com/
+status.qualys.com
+	52.89.61.71 - ec2-52-89-61-71.us-west-2.compute.amazonaws.com
+	52.88.174.36 - ec2-52-88-174-36.us-west-2.compute.amazonaws.com
+	35.160.228.21 - ec2-35-160-228-21.us-west-2.compute.amazonaws.com
+	https://status.qualys.com/
+	https://status.qualys.com/history
+	https://status.qualys.com/incidents/7fr429d0ll3y
+	https://status.qualys.com/incidents/905wxz7n5lpz
+	https://status.qualys.com/incidents/9pv660ck6pmb
+	https://status.qualys.com/incidents/9stgghz12wfr
+	https://status.qualys.com/incidents/b1slf3xt67vm
+	https://status.qualys.com/incidents/bhmlggdndmch
+	https://status.qualys.com/incidents/f8ry65np457y
+	https://status.qualys.com/incidents/fq9v83xgh1dr
+	https://status.qualys.com/incidents/gtmxm6r2pxhl
+	https://status.qualys.com/incidents/hjrlczljfhdc
+	https://status.qualys.com/incidents/jgfh93w89h5z
+	https://status.qualys.com/incidents/jvhjj5jzmphw
+	https://status.qualys.com/incidents/lb8bcz528zkf
+	https://status.qualys.com/incidents/ljgkxf9rntf9
+	https://status.qualys.com/incidents/nqhl73g33yly
+	https://status.qualys.com/incidents/rhj7fh2dgmcx
+	https://status.qualys.com/incidents/t62kbjg4cmn3
+	https://status.qualys.com/incidents/twn1yx9nmxf8
+	https://status.qualys.com/incidents/xr4mty73342h
+www.qualys.com
+	64.39.96.133 - www.qualys.com
+	https://www.qualys.com/
+	https://www.qualys.com/asset-discovery/
+	https://www.qualys.com/blackhat
+	https://www.qualys.com/careers/
+	https://www.qualys.com/careers/benefits/
+	https://www.qualys.com/careers/slideshow/
+	https://www.qualys.com/cloud-agent/
+	https://www.qualys.com/cloudagent
+	https://www.qualys.com/company/
+	https://www.qualys.com/company/contacts/
+	https://www.qualys.com/company/directions/
+	https://www.qualys.com/company/events/
+	https://www.qualys.com/company/management/
+	https://www.qualys.com/company/newsroom/
+	https://www.qualys.com/company/privacy/
+	https://www.qualys.com/company/search/
+	https://www.qualys.com/compliance-monitoring/
+	https://www.qualys.com/customers/
+	https://www.qualys.com/customers/awards/
+	https://www.qualys.com/forms/assetview/
+	https://www.qualys.com/forms/freescan/
+	https://www.qualys.com/network-security/
+	https://www.qualys.com/partners/
+	https://www.qualys.com/partners/faq/
+	https://www.qualys.com/partners/find/
+	https://www.qualys.com/partners/msp/
+	https://www.qualys.com/partners/pci/
+	https://www.qualys.com/partners/vas/
+	https://www.qualys.com/public-clouds/
+	https://www.qualys.com/qualysguard/
+	https://www.qualys.com/research/
+	https://www.qualys.com/research/exploits/
+	https://www.qualys.com/research/knowledge/
+	https://www.qualys.com/research/opensource/
+	https://www.qualys.com/research/top10/
+	https://www.qualys.com/research/vulnlaws/
+	https://www.qualys.com/resources/
+	https://www.qualys.com/rsac
+	https://www.qualys.com/scanning-accuracy/
+	https://www.qualys.com/solutions/
+	https://www.qualys.com/solutions/azure/
+	https://www.qualys.com/solutions/compliance/
+	https://www.qualys.com/solutions/compliance/fisma/
+	https://www.qualys.com/solutions/fdcc/
+	https://www.qualys.com/solutions/industry/federal_government/
+	https://www.qualys.com/solutions/technology/
+	https://www.qualys.com/subscriptions/
+	https://www.qualys.com/subscriptions/consultant/
+	https://www.qualys.com/subscriptions/enterprise/
+	https://www.qualys.com/subscriptions/express/
+	https://www.qualys.com/suite/
+	https://www.qualys.com/suite/threatprotect/
+	https://www.qualys.com/support/
+	https://www.qualys.com/support/sla/
+	https://www.qualys.com/threat-protection/
+	https://www.qualys.com/trial/
+	https://www.qualys.com/webcasts/
+
+# Done

@@ -1,0 +1,73 @@
+DNS Servers for cylance.com:
+	ns-1831.awsdns-36.co.uk
+	ns-447.awsdns-55.com
+	ns-735.awsdns-27.net
+	ns-1130.awsdns-13.org
+
+Trying zone transfer first...
+
+Unsuccessful in zone transfer (it was worth a shot)
+Okay, trying the good old fashioned way... brute force
+
+Checking for wildcard DNS...
+Nope. Good.
+Now performing 2280 test(s)...
+54.165.41.241	bi.cylance.com
+52.202.18.38	bi.cylance.com
+50.16.46.114	bi.cylance.com
+96.16.12.236	blog.cylance.com
+96.16.12.3	blog.cylance.com
+52.3.10.181	data.cylance.com
+52.55.159.97	data.cylance.com
+54.209.138.58	data.cylance.com
+52.2.61.203	download.cylance.com
+52.2.220.21	download.cylance.com
+54.84.26.94	front.cylance.com
+107.23.100.116	front.cylance.com
+96.16.12.40	info.cylance.com
+96.16.12.241	info.cylance.com
+54.173.66.133	login.cylance.com
+34.192.15.34	login.cylance.com
+52.5.100.211	login.cylance.com
+96.16.12.58	marketing.cylance.com
+96.16.12.56	marketing.cylance.com
+54.84.243.231	my.cylance.com
+52.87.79.173	my.cylance.com
+54.82.211.73	my.cylance.com
+192.28.148.81	pages.cylance.com
+52.2.220.21	static.cylance.com
+52.2.61.203	static.cylance.com
+192.161.157.166	support.cylance.com
+52.202.173.143	update.cylance.com
+52.54.9.144	update.cylance.com
+52.73.247.148	update.cylance.com
+96.16.12.49	www.cylance.com
+96.16.12.50	www.cylance.com
+
+Subnets found (may want to probe here using nmap or unicornscan):
+	107.23.100.0-255 : 1 hostnames found.
+	192.161.157.0-255 : 1 hostnames found.
+	192.28.148.0-255 : 1 hostnames found.
+	34.192.15.0-255 : 1 hostnames found.
+	50.16.46.0-255 : 1 hostnames found.
+	52.2.220.0-255 : 2 hostnames found.
+	52.2.61.0-255 : 2 hostnames found.
+	52.202.173.0-255 : 1 hostnames found.
+	52.202.18.0-255 : 1 hostnames found.
+	52.3.10.0-255 : 1 hostnames found.
+	52.5.100.0-255 : 1 hostnames found.
+	52.54.9.0-255 : 1 hostnames found.
+	52.55.159.0-255 : 1 hostnames found.
+	52.73.247.0-255 : 1 hostnames found.
+	52.87.79.0-255 : 1 hostnames found.
+	54.165.41.0-255 : 1 hostnames found.
+	54.173.66.0-255 : 1 hostnames found.
+	54.209.138.0-255 : 1 hostnames found.
+	54.82.211.0-255 : 1 hostnames found.
+	54.84.243.0-255 : 1 hostnames found.
+	54.84.26.0-255 : 1 hostnames found.
+	96.16.12.0-255 : 8 hostnames found.
+
+Done with fmc scanFound 31 entries.
+
+;).

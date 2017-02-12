@@ -1,0 +1,9 @@
+.vagrant
+
+build/*
+src/icons/converted/*
+
+node_modules
+npm-debug.log
+
+!.gitkeep

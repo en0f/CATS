@@ -1,0 +1,123 @@
+# InstaRecon v0.1.2 - by Luis Teixeira (teix.co)
+# Scanning 1/1 hosts
+# No Shodan key provided
+
+# ____________________ Scanning surflite.com ____________________ #
+
+[*] Domain: surflite.com
+
+[*] IPs & reverse DNS:
+168.235.150.232
+
+[*] NS records:
+ns40.domaincontrol.com
+	208.109.255.20 - ns40.domaincontrol.com
+ns39.domaincontrol.com
+	216.69.185.20 - ns39.domaincontrol.com
+
+[*] MX records:
+smtp.secureserver.net
+	68.178.213.37 - p3plibsmtp02-v01.prod.phx3.secureserver.net
+	72.167.238.29 - p3plibsmtp01-v01.prod.phx3.secureserver.net
+	68.178.213.203 - p3plibsmtp03-v01.prod.phx3.secureserver.net
+mailstore1.secureserver.net
+	68.178.213.243 - ip-68-178-213-243.ip.secureserver.net
+	68.178.213.244 - ip-68-178-213-244.ip.secureserver.net
+	72.167.238.32 - p3pismtp01-065.prod.phx3.secureserver.net
+
+[*] Whois domain:
+Domain Name: SURFLITE.COM
+Registry Domain ID: 87641055_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.godaddy.com
+Registrar URL: http://www.godaddy.com
+Update Date: 2015-05-27T15:34:31Z
+Creation Date: 2002-06-18T14:02:07Z
+Registrar Registration Expiration Date: 2017-06-18T14:02:07Z
+Registrar: GoDaddy.com, LLC
+Registrar IANA ID: 146
+Registrar Abuse Contact Email: abuse@godaddy.com
+Registrar Abuse Contact Phone: +1.4806242505
+Domain Status: clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited http://www.icann.org/epp#clientUpdateProhibited
+Domain Status: clientRenewProhibited http://www.icann.org/epp#clientRenewProhibited
+Domain Status: clientDeleteProhibited http://www.icann.org/epp#clientDeleteProhibited
+Registry Registrant ID: Not Available From Registry
+Registrant Name: Registration Private
+Registrant Organization: Domains By Proxy, LLC
+Registrant Street: DomainsByProxy.com
+Registrant Street: 14455 N. Hayden Road
+Registrant City: Scottsdale
+Registrant State/Province: AZ
+Registrant Postal Code: 85260
+Registrant Country: US
+Registrant Phone: +1.4806242599
+Registrant Phone Ext: 
+Registrant Fax: +1.4806242598
+Registrant Fax Ext: 
+Registrant Email: SURFLITE.COM@domainsbyproxy.com
+Registry Admin ID: Not Available From Registry
+Admin Name: Registration Private
+Admin Organization: Domains By Proxy, LLC
+Admin Street: DomainsByProxy.com
+Admin Street: 14455 N. Hayden Road
+Admin City: Scottsdale
+Admin State/Province: AZ
+Admin Postal Code: 85260
+Admin Country: US
+Admin Phone: +1.4806242599
+Admin Phone Ext: 
+Admin Fax: +1.4806242598
+Admin Fax Ext: 
+Admin Email: SURFLITE.COM@domainsbyproxy.com
+Registry Tech ID: Not Available From Registry
+Tech Name: Registration Private
+Tech Organization: Domains By Proxy, LLC
+Tech Street: DomainsByProxy.com
+Tech Street: 14455 N. Hayden Road
+Tech City: Scottsdale
+Tech State/Province: AZ
+Tech Postal Code: 85260
+Tech Country: US
+Tech Phone: +1.4806242599
+Tech Phone Ext: 
+Tech Fax: +1.4806242598
+Tech Fax Ext: 
+Tech Email: SURFLITE.COM@domainsbyproxy.com
+Name Server: NS39.DOMAINCONTROL.COM
+Name Server: NS40.DOMAINCONTROL.COM
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2017-01-29T16:00:00Z
+
+[*] Whois IP for 168.235.150.232:
+asn: 55053
+asn_cidr: 168.235.144.0/20
+asn_country_code: CA
+asn_date: 2014-06-26
+asn_registry: arin
+net 0:
+	cidr: 168.235.144.0/20
+	range: 168.235.144.0 - 168.235.159.255
+	name: CLOUD-52
+	description: KW Datacenter
+	handle: NET-168-235-144-0-1
+	
+	address: 235 Ardelt Avenue
+	city: Kitchener
+	state: ON
+	postal_code: N2E 3K2
+	country: CA
+
+[*] Related CIDR:
+168.235.144.0/20
+
+# Can't do Shodan lookups without a key (pass one with -s or with unix environment variable SHODAN_KEY)
+
+# Querying Google for subdomains and Linkedin pages, this might take a while
+[*] Possible LinkedIn page: https://www.linkedin.com/company/surflight-hawaii
+[*] Subdomains:
+www.surflite.com
+	168.235.150.232
+	http://www.surflite.com/
+
+# Done
